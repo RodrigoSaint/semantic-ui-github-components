@@ -1,23 +1,23 @@
 ## semantic-ui-wordpress-components
 
-This is a component that by just passing a wordpress address can query its posts and display them.
+This is a component that by just passing a username can query its repositories and display them.
 
 To install you can add it to your dependencies along with [semantic-ui-react](https://react.semantic-ui.com/introduction):
 
-> npm i semantic-ui-wordpress-components semantic-ui-react --save
+> npm i semantic-ui-github-components semantic-ui-react --save
  
 or
-> yarn add semantic-ui-wordpress-components semantic-ui-react
+> yarn add semantic-ui-github-components semantic-ui-react
 
 Then import it on the component that you will use it:
 
 ```javascript
-import WordPress from  "semantic-ui-wordpress-components";
+import GitHubRepositories from  "semantic-ui-github-components";
 ```
 And after that pass the address of your wordpress on the address prop:
 ```javascript
-const app = () => <WordPress address="foreignerdeveloper.wordpress.com"  />
+const app = () => <GitHubRepositories username="rodrigosaint"  />
 ```
 Done, you should have something like this:
 
-![Example](http://i.imgur.com/zIJhW1N.png)
+![Example](https://i.imgur.com/WavuFck.png)
