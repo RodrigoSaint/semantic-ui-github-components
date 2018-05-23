@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "semantic-ui-react";
 
 import GithubRepository from "./repository";
 import RepositoryCard from "./card";
