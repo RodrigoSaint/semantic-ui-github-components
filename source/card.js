@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, Card } from "semantic-ui-react";
 import RepositoryModal from "./modal";
+import "./index.css";
 
 const RepositoryCard = props => {
   return (
